@@ -1,0 +1,41 @@
+.section__principal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div__left {
+  display: block;
+  background-color: black;
+  width: 200px;
+}
+
+.div__left a {
+  color: #6ec1e4;
+  text-decoration: transparent;
+}
+
+.div__sub {
+  color: white;
+  font-size: 18px;
+}
+
+.section__center {
+  display: inline-block;
+}
+
+.div__rigth {
+  display: inline-block;
+  width: 200px;
+  background-color: black;
+  padding: 20px;
+}
+
+.div__rigth a {
+  color: #6ec1e4;
+  text-decoration: transparent;
+}
+.div__rigth__sub {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+}
