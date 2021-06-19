@@ -1,3 +1,3 @@
 # Bookshelf
 
-Página para tiend de libros.
+Página para la tienda de libros Bookshelf.
