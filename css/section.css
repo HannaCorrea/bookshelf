@@ -7,6 +7,7 @@
   display: block;
   background-color: black;
   width: 200px;
+  padding: 10px;
 }
 
 .div__left a {
@@ -20,7 +21,22 @@
 }
 
 .section__center {
-  display: inline-block;
+  width: calc(100% - 400px);
+}
+
+.cards__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 15px;
+}
+
+.section__header {
+  display: flex;
+  justify-content: center;
 }
 
 .div__rigth {
