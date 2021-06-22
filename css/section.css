@@ -4,10 +4,13 @@
 }
 
 .div__left {
-  display: block;
-  background-color: black;
+  background-color: #231f20;
   width: 200px;
-  padding: 10px;
+  padding: 10px 20px;
+}
+
+.div__left ul {
+  margin-bottom: 40px;
 }
 
 .div__left a {
@@ -15,13 +18,65 @@
   text-decoration: transparent;
 }
 
+.div__left li {
+  margin: 20px 0;
+}
+
+.div__left li :hover {
+  color: white;
+}
+
+.div__left i {
+  margin-right: 10px;
+}
+
 .div__sub {
   color: white;
-  font-size: 18px;
+  font-size: 16px;
+  margin: 20px 0;
 }
 
 .section__center {
   width: calc(100% - 400px);
+  height: calc(100vh - 67px);
+  overflow: auto;
+}
+
+.section__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  align-items: center;
+}
+
+.section__header h2 {
+  font-size: 20px;
+}
+
+.section__header a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #727272;
+}
+
+.section__header__release {
+  position: relative;
+}
+
+.section__header__release::after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #979797;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.section__header button {
+  font-size: 20px;
+  color: #6ec1e4;
+  border: none;
 }
 
 .cards__container {
@@ -32,26 +87,50 @@
 
 .card {
   margin: 15px;
+  width: 176px;
 }
 
-.section__header {
-  display: flex;
-  justify-content: center;
+.card h3 {
+  font-size: 16px;
+  margin: 7px 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card p {
+  margin-bottom: 4px;
+}
+
+.card i {
+  color: #6ec1e4;
+  font-size: 13px;
+  display: inline-block;
 }
 
 .div__rigth {
   display: inline-block;
   width: 200px;
-  background-color: black;
+  background-color: #231f20;
   padding: 20px;
 }
 
 .div__rigth a {
-  color: #6ec1e4;
+  display: block;
+  width: 100%;
   text-decoration: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #6ec1e4;
 }
 .div__rigth__sub {
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.div__rigth li {
+  margin: 15px 0;
 }
